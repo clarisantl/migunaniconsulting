@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQ - Migunani</title>
+
+  <!-- Google Font Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Custom JS -->
+  <script defer src="script.js"></script>
+
+</head>
+<body>
+<header>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/LOGO MIGUNANI.png" alt="Logo Migunani" width="147" height="47" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav custom-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="about-us.html">Tentang Kami</a>
+        </li>
+
+        <!-- Dropdown Layanan -->
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-button" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Layanan 
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="personal-service.html">Layanan Personal</a></li>
+            <li><a class="dropdown-item" href="corporate-service.html">Layanan Perusahaan</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="clients.html">Klien</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button active-custom" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="contact.html">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header> 
+
+<main>
+  <!-- Hero Section -->
+   <section class="hero" style="background-image: url(img/hero/FAQ.svg);">
+    <div class="hero-content">
+        <h1 class="headline">PUSAT BANTUAN</h1>
+        <h5 class="sub-head">Temukan jawaban atas pertanyaan umum seputar layanan Migunani.</h5>
+    </div>
+    </section>
+
+  <!-- FAQ Section -->
+<section class="faq-section" id="faq-section">
+<div class="faq-container">
+  <!-- Tab navigation -->
+  <div class="d-flex align-items-start faq-tabs-desktop">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="faq-tab-button active" id="v-pills-umum-tab" data-bs-toggle="pill" data-bs-target="#v-pills-umum" type="button" role="tab" aria-controls="v-pills-umum" aria-selected="true">Pertanyaan Umum</button>
+    <button class="faq-tab-button" id="v-pills-layanan-tab" data-bs-toggle="pill" data-bs-target="#v-pills-layanan" type="button" role="tab" aria-controls="v-pills-layanan" aria-selected="false">Layanan</button>
+    <button class="faq-tab-button" id="v-pills-pemesan-tab" data-bs-toggle="pill" data-bs-target="#v-pills-pemesan" type="button" role="tab" aria-controls="v-pills-pemesan" aria-selected="false">Pemesan dan Penjadwalan</button>
+    <button class="faq-tab-button" id="v-pills-pembayaran-tab" data-bs-toggle="pill" data-bs-target="#v-pills-pembayaran" type="button" role="tab" aria-controls="v-pills-pembayaran" aria-selected="false">Pembayaran</button>
+  </div>
+  </div>
+
+  <!-- Tab content -->
+      <div class="tab-content faq-content-right" id="v-pills-tabContent">    <!-- Tab content for Pertanyaan Umum -->
+    <div class="tab-pane fade show active" id="v-pills-umum" role="tabpanel" aria-labelledby="v-pills-umum-tab" tabindex="0" >
+      <h3>Pertanyaan Umum</h3>
+      <p>Mencakup pertanyaan dasar tentang Migunani Consulting.</p>
+    <div class="accordion-wrapper">
+  <div class="accordion accordion-flush" style="width: 100%;" id="accordionFlushExampleUmum">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Apa itu Migunani Consulting?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleUmum">
+        <div class="accordion-body">Migunani Consulting adalah perusahaan konsultan yang berfokus pada pengembangan sumber daya manusia, psikologi, dan layanan hukum, menyediakan solusi bagi individu dan organisasi.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Apa visi dan misi Migunani Consulting?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleUmum">
+        <div class="accordion-body">Visi Migunani adalah menjadi mitra terpercaya dalam pengelolaan SDM. Misi kami adalah membantu klien menciptakan budaya kerja positif dan pengembangan SDM yang berkelanjutan.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Siapa yang dapat menggunakan layanan Migunani?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleUmum">
+        <div class="accordion-body">Layanan kami tersedia untuk perusahaan, organisasi, dan individu yang ingin mengembangkan potensi diri atau meningkatkan kinerja tim.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        Apakah Migunani Consulting hanya melayani perusahaan besar?
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleUmum">
+        <div class="accordion-body">Tidak, kami melayani berbagai skala perusahaan, baik kecil, menengah, maupun besar, dengan solusi yang disesuaikan dengan kebutuhan mereka.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+        Apa yang membedakan Migunani Consulting dari konsultan lainnya?
+        </button>
+      </h2>
+      <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleUmum">
+        <div class="accordion-body">Kami menekankan pendekatan yang human-centered, dengan solusi yang tidak hanya efektif tapi juga berkelanjutan, serta memberikan perhatian penuh terhadap kebutuhan setiap klien.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+          Apakah Migunani memiliki pengalaman bekerja dengan perusahaan di berbagai industri?
+        </button>
+      </h2>
+      <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleUmum">
+        <div class="accordion-body">Ya, kami memiliki pengalaman bekerja dengan berbagai industri, mulai dari korporasi besar hingga UMKM, memberikan solusi yang relevan dengan kebutuhan setiap sektor.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+        Bagaimana cara menghubungi tim Migunani untuk pertanyaan lebih lanjut?
+        </button>
+      </h2>
+      <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleUmum">
+        <div class="accordion-body">Anda dapat menghubungi kami melalui halaman kontak di situs web atau melalui nomor telepon/email yang tersedia di bagian bawah (footer) halaman ini.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+        Apakah Migunani Consulting memiliki kantor cabang di luar kota?
+        </button>
+      </h2>
+      <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleUmum">
+        <div class="accordion-body">Saat ini, kami beroperasi di satu lokasi yaitu di Jl. Hasanudin No. 18, Laweyan, Surakarta. Jawa Tengah, namun kami melayani klien dari berbagai kota dan dapat mengatur konsultasi jarak jauh.</div>
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+
+    <!-- Tab content for Layanan -->
+    <div class="tab-pane fade" id="v-pills-layanan" role="tabpanel" aria-labelledby="v-pills-layanan-tab" tabindex="0">
+      <h3>Layanan</h3>
+      <p>Informasi mengenai berbagai layanan yang ditawarkan oleh Migunani.</p>
+        <div class="accordion-wrapper">
+  <div class="accordion accordion-flush" style="width: 100%;" id="accordionFlushExampleLayanan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseLayananOne" aria-expanded="false" aria-controls="flush-collapseLayananOne">
+        Layanan apa saja yang ditawarkan oleh Migunani Consulting?
+        </button>
+      </h2>
+      <div id="flush-collapseLayananOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleLayanan">
+        <div class="accordion-body">Kami menawarkan layanan rekrutmen, pelatihan & pengembangan, konseling karier, asesmen psikologi, dan manajemen sumber daya manusia.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseLayananTwo" aria-expanded="false" aria-controls="flush-collapseLayananTwo">
+        Apakah Migunani Consulting menawarkan layanan untuk individu atau hanya perusahaan?
+        </button>
+      </h2>
+      <div id="flush-collapseLayananTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleLayanan">
+        <div class="accordion-body">Kami menawarkan layanan untuk keduanya, baik individu yang ingin berkembang dalam karier maupun perusahaan yang ingin meningkatkan pengelolaan SDM.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseLayananThree" aria-expanded="false" aria-controls="flush-collapseLayananThree">
+        Bagaimana layanan rekrutmen Migunani dapat membantu perusahaan?
+        </button>
+      </h2>
+      <div id="flush-collapseLayananThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleLayanan">
+        <div class="accordion-body">Layanan rekrutmen kami membantu perusahaan menemukan kandidat yang tepat melalui seleksi berbasis kompetensi, psikotes, dan wawancara.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseLayananFour" aria-expanded="false" aria-controls="flush-collapseLayananFour">
+        Apakah Migunani menawarkan layanan pelatihan kepemimpinan?
+        </button>
+      </h2>
+      <div id="flush-collapseLayananFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleLayanan">
+        <div class="accordion-body">Ya, kami menawarkan pelatihan kepemimpinan untuk membantu generasi muda dan profesional mengembangkan keterampilan kepemimpinan mereka.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseLayananFive" aria-expanded="false" aria-controls="flush-collapseLayananFive">
+        Apakah Migunani menyediakan layanan asesmen psikologi untuk karyawan?
+        </button>
+      </h2>
+      <div id="flush-collapseLayananFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleLayanan">
+        <div class="accordion-body">Ya, kami menyediakan layanan asesmen psikologi untuk menilai kepribadian, kecocokan, dan potensi karyawan dalam posisi yang tepat.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseLayananSix" aria-expanded="false" aria-controls="flush-collapseLayananSix">
+        Apakah Migunani menyediakan layanan untuk pengembangan karier individu?
+        </button>
+      </h2>
+      <div id="flush-collapseLayananSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleLayanan">
+        <div class="accordion-body">Kami membantu individu dalam merencanakan jalur karir mereka, mulai dari pengembangan keterampilan hingga pemetaan karir.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseLayananSeven" aria-expanded="false" aria-controls="flush-collapseLayananSeven">
+        Dapatkah Migunani membantu perusahaan dalam pengelolaan hubungan industrial?
+        </button>
+      </h2>
+      <div id="flush-collapseLayananSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleLayanan">
+        <div class="accordion-body">Tentu, kami menyediakan layanan untuk mengelola hubungan industrial, termasuk peraturan perusahaan dan penyelesaian sengketa tenaga kerja.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseLayananEight" aria-expanded="false" aria-controls="flush-collapseLayananEight">
+        Apakah Migunani menawarkan layanan konsultasi hukum ketenagakerjaan?
+        </button>
+      </h2>
+      <div id="flush-collapseLayananEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleLayanan">
+        <div class="accordion-body">Ya, kami menawarkan layanan konsultasi hukum ketenagakerjaan untuk memastikan perusahaan mematuhi peraturan yang berlaku.</div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+
+    <!-- Tab content for Pemesan dan Penjadwalan -->
+    <div class="tab-pane fade" id="v-pills-pemesan" role="tabpanel" aria-labelledby="v-pills-pemesan-tab" tabindex="0">
+      <h3>Pemesan dan Penjadwalan</h3>
+      <p>Informasi terkait pemesanan dan penjadwalan.</p>
+      <div class="accordion-wrapper">
+        <div class="accordion accordion-flush" style="width: 100%;" id="accordionFlushExamplePemesan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePemesananOne" aria-expanded="false" aria-controls="flush-collapsePemesananOne">
+        Bagaimana cara memesan layanan konseling atau pelatihan?
+        </button>
+      </h2>
+      <div id="flush-collapsePemesananOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExamplePemesan">
+        <div class="accordion-body">Anda dapat memesan layanan melalui halaman kontak di situs web atau menghubungi kami langsung untuk mengatur jadwal yang sesuai.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePemesananTwo" aria-expanded="false" aria-controls="flush-collapsePemesananTwo">
+        Apakah saya bisa memilih waktu tertentu untuk layanan pelatihan atau konseling?
+        </button>
+      </h2>
+      <div id="flush-collapsePemesananTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExamplePemesan">
+        <div class="accordion-body">Ya, kami akan menyesuaikan jadwal sesuai dengan ketersediaan Anda dan memilih waktu yang paling nyaman.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePemesananThree" aria-expanded="false" aria-controls="flush-collapsePemesananThree">
+        Berapa lama proses pemesanan dan penjadwalan layanan?
+        </button>
+      </h2>
+      <div id="flush-collapsePemesananThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExamplePemesan">
+        <div class="accordion-body">Proses pemesanan dan penjadwalan akan disesuaikan dengan ketersediaan jadwal dari pihak kami dan Anda, dan kami akan mengonfirmasi jadwal yang paling cocok.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePemesananFour" aria-expanded="false" aria-controls="flush-collapsePemesananFour">
+        Apakah sesi konseling dapat dilakukan secara online?
+        </button>
+      </h2>
+      <div id="flush-collapsePemesananFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExamplePemesan">
+        <div class="accordion-body">Ya, kami menyediakan sesi konseling online melalui video call atau platform lainnya yang memudahkan komunikasi jarak jauh.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePemesananFive" aria-expanded="false" aria-controls="flush-collapsePemesananFive">
+        Apakah ada batasan waktu untuk memesan layanan?
+        </button>
+      </h2>
+      <div id="flush-collapsePemesananFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExamplePemesan">
+        <div class="accordion-body">Kami menerima pemesanan sesuai dengan jam operasional kami, namun untuk layanan khusus, kami dapat melakukan penyesuaian waktu sesuai kebutuhan.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePemesananSix" aria-expanded="false" aria-controls="flush-collapsePemesananSix">
+        Apakah saya bisa mengubah jadwal setelah memesan?
+        </button>
+      </h2>
+      <div id="flush-collapsePemesananSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExamplePemesan">
+        <div class="accordion-body">Tentu, Anda bisa mengubah jadwal dengan memberi tahu kami minimal 24 jam sebelum jadwal yang telah disepakati.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePemesananSeven" aria-expanded="false" aria-controls="flush-collapsePemesananSeven">
+        Apakah ada sesi konsultasi gratis sebelum memesan layanan?
+        </button>
+      </h2>
+      <div id="flush-collapsePemesananSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExamplePemesan">
+        <div class="accordion-body">Kami menyediakan sesi konsultasi gratis untuk membantu Anda memilih layanan yang paling sesuai dengan kebutuhan dan tujuan Anda.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePemesananEight" aria-expanded="false" aria-controls="flush-collapsePemesananEight">
+        Bagaimana jika saya memerlukan jadwal mendesak atau lebih cepat?
+        </button>
+      </h2>
+      <div id="flush-collapsePemesananEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExamplePemesan">
+        <div class="accordion-body">Kami akan berusaha sebaik mungkin untuk memenuhi permintaan jadwal mendesak, silakan hubungi kami untuk penjadwalan prioritas.</div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+
+    <!-- Tab content for Pembayaran -->
+    <div class="tab-pane fade" id="v-pills-pembayaran" role="tabpanel" aria-labelledby="v-pills-pembayaran-tab" tabindex="0">
+      <h3>Pembayaran</h3>
+      <p>Informasi terkait metode pembayaran yang diterima.</p>
+      <div class="accordion-wrapper">
+        <div class="accordion accordion-flush" style="width: 100%;" id="accordionFlushExamplePembayaran">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePembayaranOne" aria-expanded="false" aria-controls="flush-collapsePembayaranOne">
+        Bagaimana cara membayar untuk layanan Migunani?
+        </button>
+      </h2>
+      <div id="flush-collapsePembayaranOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExamplePembayaran">
+        <div class="accordion-body">Pembayaran dapat dilakukan melalui transfer bank atau metode pembayaran yang kami sediakan setelah layanan disepakati.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePembayaranTwo" aria-expanded="false" aria-controls="flush-collapsePembayaranTwo">
+        Apakah ada biaya tambahan untuk layanan konsultasi atau pelatihan?
+        </button>
+      </h2>
+      <div id="flush-collapsePembayaranTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExamplePembayaran">
+        <div class="accordion-body">Biaya tambahan akan diberitahukan di awal, tergantung pada jenis layanan dan durasi yang Anda pilih.</div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+      <!-- Mobile FAQ Navigation Button -->
+    <button class="faq-nav-button" onclick="toggleNav()">FAQ Menu</button>
+
+    <!-- Mobile Overlay Navigation -->
+    <div class="faq-overlay-nav" id="faq-overlay-nav">
+      <div class="faq-overlay-nav-content">
+        <button class="faq-close-btn" onclick="toggleNav()">X</button>
+        <div class="nav flex-column nav-pills" id="v-pills-tab-mobile">
+          <button class="faq-tab-button active" data-bs-toggle="pill" data-bs-target="#v-pills-umum" type="button" role="tab" aria-controls="v-pills-umum" aria-selected="true">Pertanyaan Umum</button>
+          <button class="faq-tab-button" data-bs-toggle="pill" data-bs-target="#v-pills-layanan" type="button" role="tab" aria-controls="v-pills-layanan" aria-selected="false">Layanan</button>
+          <button class="faq-tab-button" data-bs-toggle="pill" data-bs-target="#v-pills-pemesan" type="button" role="tab" aria-controls="v-pills-pemesan" aria-selected="false">Pemesan dan Penjadwalan</button>
+          <button class="faq-tab-button" data-bs-toggle="pill" data-bs-target="#v-pills-pembayaran" type="button" role="tab" aria-controls="v-pills-pembayaran" aria-selected="false">Pembayaran</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <section class="footer-section">
+
+  <!-- CTA Section -->
+  <div class="footer-cta">
+    <div class="footer-cta-text">
+      <h2>Bingung memilih layanan yang tepat?</h2>
+      <p>Kami siap mendampingi Anda melalui sesi diskusi awal untuk memahami kebutuhan secara menyeluruh dan merekomendasikan layanan yang paling tepat.</p>
+    </div>
+    <div class="footer-cta-buttons">
+      <a href="https://forms.gle/r6PrwLr1sNYxW4k4A" target="_blank" class="btn-outline">
+        <img src="img/icons/form-footer.svg" alt="Form Icon" />
+        Langsung Buat Janji Temu
+      </a>
+      <a href="https://wa.me/6287788408171" target="_blank" class="btn-filled">
+        <img src="img/icons/chat-hero-footer.svg" alt="WhatsApp Icon" />
+        Tanya melalui WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer Content -->
+  <div class="footer-content">
+    <!-- Container 1 -->
+    <div class="footer-col footer-col-1">
+      <img src="img/LOGO MIGUNANI.png" alt="Migunani Consulting Logo" class="footer-logo" />
+      <p class="footer-desc">
+        Solusi pengembangan SDM dan psikologi untuk mendukung pertumbuhan individu dan organisasi.
+      </p>
+      <div class="footer-socials">
+    <a href="https://www.instagram.com/migunaniconsulting/" class="footer-social-btn" aria-label="Instagram">
+      <img src="img/icons/Negative-instagram.svg" alt="Instagram Icon" />
+    </a>
+    <a href="https://www.facebook.com/migunaniconsulting/" class="footer-social-btn" aria-label="Facebook">
+      <img src="img/icons/Negative-facebook.svg" alt="Facebook Icon" />
+    </a>
+    <a href="https://www.linkedin.com/company/migunani-consulting/" class="footer-social-btn" aria-label="LinkedIn">
+      <img src="img/icons/Negative-linkedin.svg" alt="LinkedIn Icon" />
+    </a>
+      </div>
+    </div>
+
+    <!-- Container 2 -->
+    <div class="footer-col footer-col-2">
+      <h4>Kontak</h4>
+      <div class="footer-contact">
+        <p><a href="tel:+6287788408171" style="text-decoration: none; color: inherit;"><img src="img/icons/footer-phone.svg" alt="Phone Icon" /> (+62) 877-8840-8171</a></p>
+        <p><a href="mailto:migunanimci@gmail.com" style="text-decoration: none; color: inherit;"><img src="img/icons/footer-mail.svg" alt="Email Icon" /> migunanimci@gmail.com</a></p>
+      </div>
+      <h4>Alamat</h4>
+      <div class="container-address">
+      <img src="img/icons/footer-location.svg" />
+      <p class="address">
+        <a href="https://maps.app.goo.gl/inwaWXzF7fGwXGET7" style="text-decoration: none; color: inherit;">
+          Jl. Hasanudin No. 18, Laweyan, Surakarta, Jawa Tengah
+        </a>
+      </p>
+    </div>
+    </div>
+
+    <!-- Container 3 -->
+    <div class="footer-col footer-col-3">
+      <h4>Perusahaan</h4>
+      <div class="perusahaan-linktext">
+        <a href="about-us.html">Tentang Migunani</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
+        <a href="clients.html">Klien</a>
+    </div>
+    </div>
+
+    <!-- Container 4 -->
+    <div class="footer-col footer-col-4">
+      <h4>Produk & Layanan</h4>
+      <div class="produk-linktext">
+        <a href="personal-service.html">Personal</a>
+        <a href="corporate-service.html">Perusahaan</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Copyrights -->
+  <div class="footer-copyrights">
+      <p>Copyright 2025 <strong class="footer-company-name">Migunani Consulting</strong></p>
+  </div>
+  </section>
+</footer>
+
+<div class="sticky-bottom" style="position: fixed; bottom: 45px; right: 60px; z-index: 1000;">
+  <div class="sticky-whatsapp-button" style="box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.20), 0px 0px 4px 0px rgba(0, 0, 0, 0.10);"></div>
+    <a href="https://wa.me/your-phone-number" target="_blank">
+      <img src="img/fixwa.svg" alt="WhatsApp" />
+    </a>
+  </div>
+  
+<script>
+// Function to toggle the overlay navigation visibility
+function toggleNav() {
+  const overlayNav = document.getElementById('faq-overlay-nav');
+  overlayNav.classList.toggle('show');
+}
+
+// Detect when FAQ section is in view (intersection observer)
+const faqSection = document.getElementById('faq-section');
+const navButton = document.querySelector('.faq-nav-button');
+
+// Set up an intersection observer to detect when the FAQ section is in view
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Show the nav button when FAQ section enters view
+      navButton.style.display = 'block';
+    } else {
+      // Hide the nav button when FAQ section is out of view
+      navButton.style.display = 'none';
+    }
+  });
+}, {
+  threshold: 0.5 // Show when 50% of the FAQ section is in view
+});
+
+// Start observing the FAQ section
+observer.observe(faqSection);
+
+// Close the overlay when clicking outside
+window.addEventListener('click', function(event) {
+  const overlayNav = document.getElementById('faq-overlay-nav');
+  const navButton = document.querySelector('.faq-nav-button');
+  
+  // Close overlay when clicking outside of the overlay or nav button
+  if (!overlayNav.contains(event.target) && !navButton.contains(event.target)) {
+    overlayNav.classList.remove('show');
+  }
+});
+
+// Close the overlay when clicking a tab button inside the overlay
+const tabButtons = document.querySelectorAll('.faq-tab-button');
+tabButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const overlayNav = document.getElementById('faq-overlay-nav');
+    overlayNav.classList.remove('show');
+  });
+});
+
+</script>
+</body>
+</html>

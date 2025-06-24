@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Migunani Consulting</title>
+
+  <!-- Google Font Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Custom JS -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/LOGO MIGUNANI.png" alt="Logo Migunani" width="147" height="47" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav custom-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-button active-custom" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="about-us.html">Tentang Kami</a>
+        </li>
+
+        <!-- Dropdown Layanan -->
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-button" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Layanan 
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="personal-service.html">Layanan Personal</a></li>
+            <li><a class="dropdown-item" href="corporate-service.html">Layanan Perusahaan</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="clients.html">Klien</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="contact.html">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header> 
+
+<main>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container-fluid d-flex flex-wrap justify-content-between align-items-center px-0">
+      <div class="col-lg-6 hero-text ps-4 ps-md-5">
+        <h1 class="hero-title">Maksimalkan Potensimu,<br>Wujudkan Impianmu!</h1>
+        <p class="hero-subtitle">
+          Migunani Consulting siap membantu Anda menemukan dan meraih potensi maksimal dalam karier personal maupun perusahaan anda.
+        </p>
+        <a class="cta-button tertarik-btn">
+          <img src="img/icons/chat-hero-footer.svg" alt="Icon" />
+          Ketahui Kami Lebih Lanjut
+        </a>
+      </div>
+      <div class="col-lg-6 hero-image-wrapper pe-0">
+        <img src="img/hero-asset.svg" alt="Visual Hero Migunani" class="hero-combined-image w-100" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Running Text -->
+  <section class="running-text-wrapper">
+    <div class="running-text-inner">
+      <div class="scrolling-content">
+        <span><img src="img/icons/running-sun.svg" alt="Sun"> Let's Grow with Us</span>
+        <span><img src="img/icons/running-sun.svg" alt="Sun"> Let's Grow with Us</span>
+        <span><img src="img/icons/running-sun.svg" alt="Sun"> Let's Grow with Us</span>
+        <span><img src="img/icons/running-sun.svg" alt="Sun"> Let's Grow with Us</span>
+        <span><img src="img/icons/running-sun.svg" alt="Sun"> Let's Grow with Us</span>
+        <span><img src="img/icons/running-sun.svg" alt="Sun"> Let's Grow with Us</span>
+        <span><img src="img/icons/running-sun.svg" alt="Sun"> Let's Grow with Us</span>
+        <span><img src="img/icons/running-sun.svg" alt="Sun"> Let's Grow with Us</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about-section">
+    <div class="about-container">
+      <div class="about-image-wrapper">
+        <img src="img/about-us.svg" alt="About Us" class="about-image" />
+      </div>
+      <div class="about-content">
+        <h2 class="highlight-text">Ahli Pengembangan SDM</h2>
+        <p class="about-description">
+          Migunani Consulting merupakan konsultan Sumber Daya Manusia yang menawarkan jasa dan layanan di bidang Human Capital, Psikologi, dan Hukum. Dimulai dari sektor perusahaan, institusi pendidikan maupun perseorangan.
+        </p>
+        <a href="about-us.html" class="about-button">
+          Selengkapnya
+          <img src="img/icons/chevron_right.svg" alt="Arrow Icon" class="button-icon" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us Section -->
+  <section class="why-us-section">
+    <div class="why-us-container">
+      <!-- Head and Subhead -->
+      <div class="why-us-header">
+        <h2 class="highlight-whyus">Mengapa Harus Migunani?</h2>
+        <p class="why-us-subtitle">Pilar utama yang mendorong kami untuk selalu memberikan yang terbaik bagi klien.</p>
+      </div>
+
+      <!-- Cards Container -->
+      <div class="why-us-cards">
+        <div class="why-us-card">
+          <div class="card-icon-whyus">
+            <img src="img/icons/diamond.svg" alt="Integritas Icon" style="padding: 4px;" />
+          </div>
+          <h4 class="card-title-whyus">INTEGRITAS</h4>
+          <p class="card-description">Menjaga kejujuran dan tanggung jawab dalam setiap tindakan.</p>
+        </div>
+        <div class="why-us-card">
+          <div class="card-icon-whyus">
+            <img src="img/icons/trophy.svg" alt="Prima Icon" />
+          </div>
+          <h4 class="card-title-whyus">PRIMA</h4>
+          <p class="card-description">Fokus pada kualitas terbaik untuk hasil maksimal.</p>
+        </div>
+        <div class="why-us-card">
+          <div class="card-icon-whyus">
+            <img src="img/icons/heart.svg" alt="Peduli Icon" />
+          </div>
+          <h4 class="card-title-whyus">PEDULI</h4>
+          <p class="card-description">Memahami kebutuhan klien dan memberikan solusi tepat.</p>
+        </div>
+        <div class="why-us-card">
+          <div class="card-icon-whyus">
+            <img src="img/icons/lightbulb.svg" alt="Inovatif Icon" />
+          </div>
+          <h4 class="card-title-whyus">INOVATIF</h4>
+          <p class="card-description">Menyediakan solusi relevan yang beradaptasi dengan perkembangan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- Client Info Section -->
+<section class="client-info-wrapper">
+  <div class="client-info-container hidden-on-load" id="client-info">
+    <div class="client-icon"><img src="img/icons/running-sun.svg" alt="Icon" class="client-icon" /></div>
+
+    <div class="client-info-item">
+      <div class="client-info-number" id="total-klien">0</div>
+      <div class="client-info-desc">TOTAL KLIEN</div>
+    </div>
+
+    <div class="client-info-separator"></div>
+
+    <div class="client-info-item">
+      <div class="client-info-number" id="berhasil-klien">0</div>
+      <div class="client-info-desc">KEBERHASILAN KLIEN</div>
+    </div>
+
+    <div class="client-info-separator"></div>
+
+    <div class="client-info-item">
+      <div class="client-info-number" id="kepuasan-klien">0.0</div>
+      <div class="client-info-desc">KEPUASAN KLIEN</div>
+    </div>
+
+    <div class="client-icon"><img src="img/icons/running-sun.svg" alt="Icon" class="client-icon" /></div>
+  </div>
+</section>
+
+
+  <!-- Layanan Unggulan Section -->
+  <section class="featured-services-section">
+    <div class="featured-services-wrapper">
+      <div class="featured-services-texts">
+        <h2 class="featured-services-head">Layanan Unggulan Kami</h2>
+        <p class="featured-services-subhead">
+          Kenali layanan unggulan kami yang siap mendukung Anda.
+        </p>
+      </div>
+
+      <div class="featured-services-cards">
+        <div class="featured-service-card">
+          <div class="card-icon">
+            <img src="img/icons/profile-hrm.svg" alt="Human Resources Management Icon" />
+          </div>
+          <h5 class="service-card-title">Human Resources Management</h5>
+          <ul class="service-card-desc">
+            <li>Desain Organisasi</li>
+            <li>Job Analysis & Job Description</li>
+            <li>Recruitmen & Selection</li>
+            <li>Pelatihan & Pengembangan</li>
+            <li>Lainnya</li>
+          </ul>
+        </div>
+
+        <div class="featured-service-card">
+          <div class="card-icon">
+            <img src="img/icons/glasses-hr.svg" alt="Human Resources Icon" />
+          </div>
+          <h5 class="service-card-title">Human Resources</h5>
+          <ul class="service-card-desc">
+            <li>Peraturan Perusahaan</li>
+            <li>Coaching and Mentoring</li>
+            <li>Employee Assistance Program</li>
+          </ul>
+        </div>
+
+        <div class="featured-service-card">
+          <div class="card-icon">
+            <img src="img/icons/book-recruitment.svg" alt="Recruitment Icon" />
+          </div>
+          <h5 class="service-card-title">Recruitment</h5>
+          <ul class="service-card-desc">
+            <li>Sourcing / Recruitment</li>
+            <li>Psikotes / Wawancara</li>
+          </ul>
+        </div>
+
+        <div class="featured-service-card">
+          <div class="card-icon">
+            <img src="img/icons/paragraph-assessment.svg" alt="Assessment Center Icon" />
+          </div>
+          <h5 class="service-card-title">Assessment Center</h5>
+          <ul class="service-card-desc">
+            <li>Psikotes</li>
+            <li>Focus group discussion</li>
+            <li>In Tray</li>
+            <li>Studi Kasus</li>
+            <li>Wawancara berbasis kompetensi</li>
+          </ul>
+        </div>
+
+        <div class="featured-service-card">
+          <div class="card-icon">
+            <img src="img/icons/trianglecircle-training.svg" alt="Training & Development Icon" />
+          </div>
+          <h5 class="service-card-title">Training & Development</h5>
+          <ul class="service-card-desc">
+            <li>Human Resources Management</li>
+            <li>Public Speaking & Negotiation Skill</li>
+            <li>Effective Communication</li>
+            <li>Lainnya</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="featured-services-button-wrapper">
+        <a href="corporate-service.html" class="featured-services-button">
+          Selengkapnya
+          <img src="img/icons/chevron_right.svg" alt="arrow icon" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Jenis Layanan Section -->
+  <section class="jenis-layanan-section">
+  <div class="jenis-layanan-header">
+    <h2 class="jenis-layanan-header h2">Jenis Layanan Tersedia</h2>
+    <p>Kami hadir untuk mendampingi proses pengembangan Anda, baik secara individu maupun organisasi.</p>
+  </div>
+
+  <div class="jenis-layanan-cards">
+<!-- Card 1: dari kiri -->
+<div class="jenis-layanan-card slide-from-left" onclick="window.location.href='personal-service.html'" style="cursor: pointer;">
+      <img src="img/layanan personal.svg" alt="Layanan Personal" class="card-image" />
+      <div class="card-content">
+      <h4 class="card-title">Layanan Personal</h4>
+      <p class="card-desc">
+        Kami akan membantu Anda secara personal dalam mengembangkan karir Anda.
+      </p>
+      <div class="card-chips">
+        <div class="card-chip">Counseling</div>
+        <div class="card-chip">Assessment Center</div>
+      </div>
+      </div>
+      <div class="card-icon-container">
+      <img src="img/icons/arrow-upright-janislayanan.svg" alt="Arrow Icon" />
+      </div>
+</div>
+
+<!-- Card 2: dari kanan -->
+<div class="jenis-layanan-card slide-from-right" onclick="window.location.href='corporate-service.html'" style="cursor: pointer;">
+      <img src="img/Layanan perusahaan.svg" alt="Layanan Perusahaan" class="card-image" />
+      <div class="card-content">
+        <h4 class="card-title">Layanan Perusahaan</h4>
+        <p class="card-desc">
+          Kami akan membantu mengembang-kan sumber daya manusia dalam perusahaan Anda.
+        </p>
+        <div class="card-chips">
+          <div class="card-chip">Human Resources Management</div>
+          <div class="card-chip">Assessment Center</div>
+          <div class="card-chip">+ Lainnya</div>
+        </div>
+      </div>
+      <div class="card-icon-container">
+        <img src="img/icons/arrow-upright-janislayanan.svg" alt="Arrow Icon" />
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="testimonial-section">
+  <div class="testimonial-header">
+    <h2 class="section-title">
+      Layanan Kami di <span class="highlight-yellow">Mata Klien</span>
+    </h2>
+    <p class="section-subtitle">
+      Lihat bagaimana layanan Migunani telah memberikan dampak positif pada karier dan bisnis klien kami.
+    </p>
+  </div>
+  
+  <div class="testimonial-slider">
+    <button id="prevBtn" style="top: 50%;" class="slider-button" aria-label="Previous testimonial">&lt;</button>
+
+    <div class="testimonial-track-wrapper">
+      <div class="testimonial-track">
+        <!-- Clone terakhir untuk infinite loop -->
+        <div class="testimonial-card clone-last">
+          <div class="testimonial-cardheader">
+  <div class="testimonial-info-wrapper">
+    <img src="img/Lina Suryani.png" alt="Lina Suryani" class="testimonial-avatar" />
+    <div class="testimonial-info">
+      <p class="testimonial-name">Lina Suryani</p>
+      <p class="testimonial-position">HR Director PT. Innovatech</p>
+    </div>
+  </div>
+  <div class="testimonial-tag">Layanan Assessment Center</div>
+</div>
+          <p class="testimonial-text">"Menggunakan layanan assessment centre dari Migunani membantu kami menilai kemampuan kandidat lebih mendalam. Proses seleksi menjadi lebih terarah dan akurat."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-cardheader">
+            <div class="testimonial-info-wrapper">
+              <img src="img/Arya Setiawan.png" alt="Arya Setiawan" class="testimonial-avatar" />
+              <div class="testimonial-info">
+                <p class="testimonial-name">Arya Setiawan</p>
+                <p class="testimonial-position">HR Manager PT. Techno</p>
+              </div>
+            </div>
+            <div class="testimonial-tag">Layanan Rekrutmen</div>
+          </div>
+          <p class="testimonial-text">"Proses rekrutmen yang dilakukan oleh Migunani sangat efisien dan transparan. Mereka memahami kebutuhan kami dan berhasil menemukan kandidat yang tepat untuk posisi penting di perusahaan."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-cardheader">
+  <div class="testimonial-info-wrapper">
+    <img src="img/Alif Kurniawa .png" alt="Alif Kurniawan" class="testimonial-avatar" />
+    <div class="testimonial-info">
+      <p class="testimonial-name">Alif Kurniawan</p>
+      <p class="testimonial-position">Eksekutif Edumedia</p>
+    </div>
+  </div>
+  <div class="testimonial-tag">Layanan Rekrutmen</div>
+</div>
+          <p class="testimonial-text">"Konseling karier dari Migunani membantu saya menavigasi perubahan besar dalam hidup profesional saya, memberikan arahan yang jelas dalam mengambil keputusan karier."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-cardheader">
+          <div class="testimonial-info-wrapper">
+          <img src="img/John Lee.png" alt="John Lee" class="testimonial-avatar" />
+          <div class="testimonial-info">
+          <p class="testimonial-name">John Lee</p>
+          <p class="testimonial-position">CEO PT. Bright Solutions</p>
+          </div>
+          </div>
+          <div class="testimonial-tag">Layanan Pengelolaan SDM</div>
+          </div>
+          <p class="testimonial-text">"Berkat bantuan Migunani, kami berhasil merancang sistem manajemen SDM yang lebih efektif, meningkatkan efisiensi operasional, dan memotivasi karyawan untuk bekerja lebih baik."</p>
+        </div>
+
+              <div class="testimonial-card">
+          <div class="testimonial-cardheader">
+          <div class="testimonial-info-wrapper">
+          <img src="img/Dian Pratama.png" alt="Dian Pratama" class="testimonial-avatar" />
+          <div class="testimonial-info">
+          <p class="testimonial-name">Dian Pratama</p>
+          <p class="testimonial-position">Senior Designer</p>
+          </div>
+          </div>
+          <div class="testimonial-tag">Layanan Konseling Karier</div>
+          </div>
+          <p class="testimonial-text">“Konseling karier dari Migunani membantu saya menemukan arah yang lebih jelas dalam karier saya. Sesi-sesi yang penuh insight sangat membuka perspektif baru bagi saya”</p>
+        </div>
+
+        <!-- Clone pertama untuk infinite loop -->
+        <div class="testimonial-card clone-first">
+          <div class="testimonial-cardheader">
+            <div class="testimonial-info-wrapper">
+              <img src="img/Lina Suryani.png" alt="Lina Suryani" class="testimonial-avatar" />
+              <div class="testimonial-info">
+                <p class="testimonial-name">Lina Suryani</p>
+                <p class="testimonial-position">HR Director di PT. Innovatech</p>
+              </div>
+            </div>
+            <div class="testimonial-tag">Layanan Assessment Center</div>
+          </div>
+          <p class="testimonial-text">"Menggunakan layanan assessment center dari Migunani membantu kami menilai kemampuan kandidat lebih mendalam. Proses seleksi menjadi lebih terarah dan akurat."</p>
+        </div>
+      </div>
+    </div>
+
+    <button id="nextBtn" style="top: 50%;" class="slider-button" aria-label="Next testimonial">&gt;</button>
+  </div>
+  </section>
+
+  <!-- Clients Section -->
+   <section class="clients-section">
+  <div class="clients-header">
+    <h2 class="clients-title">Klien Kami</h2>
+    <p class="section-subtitle">Pengalaman kami tercermin dari kepercayaan berbagai klien yang telah kami dampingi.</p>
+  </div>
+
+  <!-- Baris 1: marquee geser ke kiri -->
+  <div class="marquee-container">
+    <div class="marquee-wrapper">
+      <img src="img/marquee1.svg" alt="Logo Klien" class="marquee-image" />
+      <img src="img/marquee1.svg" alt="Logo Klien Duplicate" class="marquee-image" />
+      <img src="img/marquee1.svg" alt="Logo Klien Duplicate" class="marquee-image" />
+      <img src="img/marquee1.svg" alt="Logo Klien Duplicate" class="marquee-image" />
+    </div>
+  </div>
+
+  <!-- Baris 2: marquee geser ke kanan -->
+  <div class="marquee-container">
+    <div class="marquee-wrapper reverse">
+      <img src="img/marquee2.svg" alt="Logo Klien Baris 2" class="marquee-image" />
+      <img src="img/marquee2.svg" alt="Logo Klien Duplicate Baris 2" class="marquee-image" />
+      <img src="img/marquee2.svg" alt="Logo Klien Baris 2" class="marquee-image" />
+      <img src="img/marquee2.svg" alt="Logo Klien Duplicate Baris 2" class="marquee-image" />
+    </div>
+  </div>
+  </section>
+  
+  <script>
+    // Testimonials slider
+const track = document.querySelector('.testimonial-track');
+const cards = document.querySelectorAll('.testimonial-card');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+
+const gap = 16;
+const cardsToShow = 2;
+const cardWidth = cards[0].offsetWidth + gap;
+let currentIndex = 1; // start at first real card
+let allowShift = true;
+
+// set initial position
+track.style.transform = `translateX(${-cardWidth * currentIndex}px)`;
+
+// Next button click
+nextBtn.addEventListener('click', () => {
+  if (allowShift) {
+    currentIndex++;
+    shiftSlide();
+  }
+});
+
+// Prev button click
+prevBtn.addEventListener('click', () => {
+  if (allowShift) {
+    currentIndex--;
+    shiftSlide();
+  }
+});
+
+function shiftSlide() {
+  allowShift = false;
+  track.style.transition = 'transform 0.4s ease';
+  track.style.transform = `translateX(${-cardWidth * currentIndex}px)`;
+}
+
+track.addEventListener('transitionend', () => {
+  if (cards[currentIndex].classList.contains('clone-last')) {
+    track.style.transition = 'none';
+    currentIndex = cards.length - 2;
+    track.style.transform = `translateX(${-cardWidth * currentIndex}px)`;
+  }
+  if (cards[currentIndex].classList.contains('clone-first')) {
+    track.style.transition = 'none';
+    currentIndex = 1;
+    track.style.transform = `translateX(${-cardWidth * currentIndex}px)`;
+  }
+  allowShift = true;
+});
+  </script>
+</main>
+
+<footer>
+  <section class="footer-section">
+
+  <!-- CTA Section -->
+  <div class="footer-cta">
+    <div class="footer-cta-text">
+      <h2>Bingung memilih layanan yang tepat?</h2>
+      <p>Kami siap mendampingi Anda melalui sesi diskusi awal untuk memahami kebutuhan secara menyeluruh dan merekomendasikan layanan yang paling tepat.</p>
+    </div>
+    <div class="footer-cta-buttons">
+      <a href="https://forms.gle/r6PrwLr1sNYxW4k4A" target="_blank" class="btn-outline">
+        <img src="img/icons/form-footer.svg" alt="Form Icon" />
+        Langsung Buat Janji Temu
+      </a>
+      <a href="https://wa.me/6287788408171" target="_blank" class="btn-filled">
+        <img src="img/icons/chat-hero-footer.svg" alt="WhatsApp Icon" />
+        Tanya melalui WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer Content -->
+  <div class="footer-content">
+    <!-- Container 1 -->
+    <div class="footer-col footer-col-1">
+      <img src="img/LOGO MIGUNANI.png" alt="Migunani Consulting Logo" class="footer-logo" />
+      <p class="footer-desc">
+        Solusi pengembangan SDM dan psikologi untuk mendukung pertumbuhan individu dan organisasi.
+      </p>
+      <div class="footer-socials">
+    <a href="https://www.instagram.com/migunaniconsulting/" class="footer-social-btn" aria-label="Instagram">
+      <img src="img/icons/Negative-instagram.svg" alt="Instagram Icon" />
+    </a>
+    <a href="https://www.facebook.com/migunaniconsulting/" class="footer-social-btn" aria-label="Facebook">
+      <img src="img/icons/Negative-facebook.svg" alt="Facebook Icon" />
+    </a>
+    <a href="https://www.linkedin.com/company/migunani-consulting/" class="footer-social-btn" aria-label="LinkedIn">
+      <img src="img/icons/Negative-linkedin.svg" alt="LinkedIn Icon" />
+    </a>
+      </div>
+    </div>
+
+    <!-- Container 2 -->
+    <div class="footer-col footer-col-2">
+      <h4>Kontak</h4>
+      <div class="footer-contact">
+        <p><a href="tel:+6287788408171" style="text-decoration: none; color: inherit;"><img src="img/icons/footer-phone.svg" alt="Phone Icon" /> (+62) 877-8840-8171</a></p>
+        <p><a href="mailto:migunanimci@gmail.com" style="text-decoration: none; color: inherit;"><img src="img/icons/footer-mail.svg" alt="Email Icon" /> migunanimci@gmail.com</a></p>
+      </div>
+      <h4>Alamat</h4>
+      <div class="container-address">
+      <img src="img/icons/footer-location.svg" />
+      <p class="address">
+        <a href="https://maps.app.goo.gl/inwaWXzF7fGwXGET7" style="text-decoration: none; color: inherit;">
+          Jl. Hasanudin No. 18, Laweyan, Surakarta, Jawa Tengah
+        </a>
+      </p>
+    </div>
+    </div>
+
+    <!-- Container 3 -->
+    <div class="footer-col footer-col-3">
+      <h4>Perusahaan</h4>
+      <div class="perusahaan-linktext">
+        <a href="about-us.html">Tentang Migunani</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
+        <a href="clients.html">Klien</a>
+    </div>
+    </div>
+
+    <!-- Container 4 -->
+    <div class="footer-col footer-col-4">
+      <h4>Produk & Layanan</h4>
+      <div class="produk-linktext">
+        <a href="personal-service.html">Personal</a>
+        <a href="corporate-service.html">Perusahaan</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Copyrights -->
+  <div class="footer-copyrights">
+      <p>Copyright 2025 <strong class="footer-company-name">Migunani Consulting</strong></p>
+  </div>
+  </section>
+</footer>
+
+<!-- Pop Up HTML -->
+<div class="popup-container">
+    <div class="popup">
+        <div class="popup-close-btn-container">
+            <button class="close-btn">&times;</button>
+        </div>
+        <div class="popup-icon">
+          <img src="img/icons/popupicon.svg" alt="WhatsApp Icon" class="icon-img">
+        </div>
+        <div class="popup-text-container">
+            <h4 class="popup-head">Terima Kasih Atas Ketertarikan Anda Akan Layanan Kami!</h4>
+            <p class="popup-desc">Untuk memastikan Anda memilih layanan yang paling sesuai dengan kebutuhan, kami menyarankan untuk berkonsultasi terlebih dahulu dengan tim kami melalui WhatsApp.</p>
+            <p class="popup-desc">Kami siap membantu Anda menentukan pilihan yang tepat!</p>
+
+        </div>
+        <div class="popup-buttons">
+            <a href="https://forms.gle/r6PrwLr1sNYxW4k4A" target="_blank" class="secondary-btn" style="text-decoration: none;">Pesan Layanan Langsung</a>
+            <a href="https://wa.me/6287788408171" target="_blank" class="primary-btn" style="text-decoration: none;">Konsultasi via WhatsApp</a>
+        </div>
+    </div>
+</div>
+<!-- Pop Up JS -->
+<script>
+// Mendapatkan semua tombol "Tertarik"
+const tertarikButtons = document.querySelectorAll('.tertarik-btn');
+const popupContainer = document.querySelector('.popup-container');
+const closeBtn = document.querySelector('.close-btn');
+
+// Fungsi untuk menampilkan pop-up dengan animasi
+function showPopup() {
+  popupContainer.style.display = 'flex'; // Menampilkan pop-up
+  setTimeout(() => {
+    popupContainer.classList.add('show'); // Menambahkan kelas untuk animasi masuk
+  }, 10); // Menunda perubahan opacity dan transformasi agar animasi bekerja
+}
+
+// Fungsi untuk menutup pop-up dengan animasi
+function closePopup() {
+  popupContainer.classList.remove('show'); // Menghapus kelas animasi keluar
+  setTimeout(() => {
+    popupContainer.style.display = 'none'; // Menyembunyikan pop-up setelah animasi selesai
+  }, 300); // Menunggu animasi selesai sebelum menyembunyikan
+}
+
+// Menambahkan event listener untuk setiap tombol "Tertarik"
+tertarikButtons.forEach(button => {
+  button.addEventListener('click', showPopup);
+});
+
+// Menambahkan event listener untuk tombol close
+closeBtn.addEventListener('click', closePopup);
+
+// Menambahkan event listener untuk menutup pop-up saat klik di luar pop-up
+popupContainer.addEventListener('click', (e) => {
+  if (e.target === popupContainer) {
+    closePopup();
+  }
+});
+
+</script>
+
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS for clients info -->
+<script>
+  function animateValue(id, start, end, duration, options = {}) {
+    const obj = document.getElementById(id);
+    let startTime = null;
+    const isDecimal = options.decimal || false;
+    const suffix = options.suffix || "";
+
+    function step(timestamp) {
+      if (!startTime) startTime = timestamp;
+      const progress = timestamp - startTime;
+      const value = start + (progress / duration) * (end - start);
+
+      if (progress < duration) {
+        obj.innerText = isDecimal
+          ? value.toFixed(1) + suffix
+          : Math.floor(value).toLocaleString() + suffix;
+        requestAnimationFrame(step);
+      } else {
+        obj.innerText = isDecimal
+          ? end.toFixed(1) + suffix
+          : Math.floor(end).toLocaleString() + suffix;
+
+        // ✅ Efek bounce scale setelah animasi selesai
+        obj.classList.add("animated-scale");
+        setTimeout(() => {
+          obj.classList.remove("animated-scale");
+        }, 400); // sesuai durasi animasi CSS
+      }
+    }
+
+    requestAnimationFrame(step);
+  }
+
+  function handleScroll() {
+    const el = document.getElementById("client-info");
+    const rect = el.getBoundingClientRect();
+    const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+
+    if (isVisible) {
+      el.classList.add("show-on-scroll");
+
+      if (!el.classList.contains("animated")) {
+        animateValue("total-klien", 0, 1000, 1500);
+        animateValue("berhasil-klien", 0, 800, 1500);
+        animateValue("kepuasan-klien", 0, 9.5, 1500, { decimal: true, suffix: "/10" });
+        el.classList.add("animated");
+      }
+    } else {
+      // Reset agar animasi bisa diulang saat masuk viewport lagi
+      el.classList.remove("show-on-scroll");
+      el.classList.remove("animated");
+    }
+  }
+
+  window.addEventListener("scroll", handleScroll);
+  window.addEventListener("load", handleScroll);
+</script>
+
+  <!-- Custom JS for jenis layanan cards -->
+<script>
+  function animateLayananCards() {
+    const section = document.querySelector('.jenis-layanan-section');
+    const sectionRect = section.getBoundingClientRect();
+
+    // Cek jika section setengah masuk viewport
+    const sectionVisible = sectionRect.top < window.innerHeight && sectionRect.bottom > 0;
+
+    const cards = document.querySelectorAll('.jenis-layanan-card');
+
+    if (sectionVisible) {
+      cards.forEach(card => {
+        card.classList.add("show-on-scroll");
+      });
+    } else {
+      // reset animasi saat keluar viewport
+      cards.forEach(card => {
+        card.classList.remove("show-on-scroll");
+      });
+    }
+  }
+
+  window.addEventListener("scroll", animateLayananCards);
+  window.addEventListener("load", animateLayananCards);
+</script>
+
+
+
+
+<div class="sticky-bottom" style="position: fixed; bottom: 45px; right: 60px; z-index: 1000;">
+  <div class="sticky-whatsapp-button" style="box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.20), 0px 0px 4px 0px rgba(0, 0, 0, 0.10);"></div>
+    <a href="https://wa.me/your-phone-number" target="_blank">
+      <img src="img/fixwa.svg" alt="WhatsApp" />
+    </a>
+  </div>
+  
+</body>
+</html>

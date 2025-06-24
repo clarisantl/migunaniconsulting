@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Artikel - Migunani</title>
+
+  <!-- Google Font Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Custom JS -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/LOGO MIGUNANI.png" alt="Logo Migunani" width="147" height="47" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav custom-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="about-us.html">Tentang Kami</a>
+        </li>
+
+        <!-- Dropdown Layanan -->
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-button" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Layanan 
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="personal-service.html">Layanan Personal</a></li>
+            <li><a class="dropdown-item" href="corporate-service.html">Layanan Perusahaan</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="clients.html">Klien</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button active-custom" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="contact.html">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header> 
+
+    <main>
+<section class="blog-article-page">
+  <!-- WRAPPED CONTAINER UNTUK IMG + TEXT -->
+  <div class="container">
+  <div class="article-image-full">
+    <img src="img/headerarticle-unilever.svg" alt="Transisi Profesional Karier: Studi Kasus bersama Eksekutif Senior PT. Unilever Indonesia" />
+  </div>
+    <!-- KONTEN UTAMA -->
+    <article class="main-article">
+      <!-- Tag kategori -->
+      <div class="article-tags">
+        <div class="tags" style="flex-direction: row">
+        <span class="tag">Human Resources</span>
+        </div>
+
+        <!-- Social Media Share Buttons -->
+        <div class="social-share-buttons d-flex align-items-center ms-3">
+        <!-- Facebook Share Button -->
+        <p style="margin-right: 8px; margin-bottom: 0; color: #9A9A9A; display: flex; align-items: center; justify-content: center;">Bagikan ke</p>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.example.com/article" target="_blank" class="social-icon me-2" aria-label="Share on Facebook" style="display: flex; width: 28px; height: 28px; justify-content: center; align-items: center; gap: var(--Spacer-Spacing2, 8px); border-radius: 5px; background: #359A68;">
+            <img src="img/icons/Negative-facebook.svg" alt="Facebook" />
+        </a>
+        
+        <!-- LinkedIn Share Button -->
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.example.com/article&title=Judul Artikel&summary=Ringkasan Artikel" target="_blank" class="social-icon me-2" aria-label="Share on LinkedIn" style="display: flex; width: 28px; height: 28px; justify-content: center; align-items: center; gap: var(--Spacer-Spacing2, 8px); border-radius: 5px; background: #359A68;">
+            <img src="img/icons/Negative-linkedin.svg" alt="LinkedIn" />
+        </a>
+
+        <!-- Instagram Share Button -->
+        <a href="https://twitter.com/intent/tweet?url=https://www.example.com/article&text=Judul Artikel" target="_blank" class="social-icon" aria-label="Share on Twitter" style="display: flex; width: 28px; height: 28px; justify-content: center; align-items: center; gap: var(--Spacer-Spacing2, 8px); border-radius: 5px; background: #359A68;">
+            <img src="img/icons/Negative-X.svg" alt="Twitter" />
+        </a>
+        </div>
+      </div>
+
+      <!-- Judul dan Penulis -->
+      <h1 class="article-title">Transisi Profesional Karier: Studi Kasus bersama Eksekutif Senior PT. Unilever Indonesia</h1>
+      <p class="article-author">Fabiola Audrey Najoan, Psikolog Klinis | Januari 4, 2025</p>
+
+      <!-- Konten artikel -->
+      <div class="article-content">
+        <p>Perjalanan karier tidak selalu berjalan linier. Di tengah dinamika industri dan perubahan kebutuhan hidup, banyak profesional menghadapi titik balik yang memerlukan keberanian untuk bertransformasi. Artikel ini mengulas pengalaman mendalam bersama salah satu klien Migunani Consulting—seorang eksekutif senior di PT. Unilever Indonesia—yang memutuskan untuk melakukan transisi karier setelah lebih dari satu dekade bekerja dalam industri FMCG.</p>
+
+        <h2>Latar Belakang Klien</h2>
+        <p>
+        Klien kami adalah seorang profesional dengan jabatan Head of Marketing di Unilever Indonesia, dengan pengalaman lebih dari 15 tahun. Meski secara prestasi tergolong sukses, ia mulai merasakan burnout, stagnasi, dan kehilangan koneksi dengan nilai-nilai personalnya. Ia merasa perlu arah baru yang lebih bermakna namun tetap relevan dengan kompetensi dan pengalaman yang telah dimiliki.
+        </p>
+        <h2>Proses Konseling: Membangun Kejelasan dari Ketidakpastian</h2>
+        <p>
+        Migunani Consulting memfasilitasi proses transisi ini melalui pendekatan career counseling dan solution-focused coaching. Dalam enam sesi intensif yang dijalankan selama dua bulan, kami fokus pada beberapa aspek penting:        </p>
+        <ul>
+          <li><strong>Refleksi Diri dan Reframing Tujuan Hidup</strong></li>
+          <p>Klien diajak untuk menyusun ulang narasi kariernya, memahami motivasi terdalam di balik keputusan-keputusan masa lalu, dan mengeksplorasi ulang potensi serta minat yang sempat terpendam.</p>
+          <li><strong>Identifikasi Kekuatan dan Transferable Skills</strong></li>
+          <p>Kami menggunakan kombinasi alat tes psikologis dan diskusi terarah untuk memetakan kompetensi utama klien—baik teknis maupun non-teknis—yang bisa ditransfer ke sektor lain.</p>
+          <li><strong>Eksplorasi Opsi Karier Alternatif</strong></li>
+          <p>Klien mengeksplorasi berbagai kemungkinan: mulai dari industri pendidikan, organisasi non-profit, hingga konsultan independen. Kami bantu melakukan riset pasar tenaga kerja, simulasi wawancara, hingga perancangan personal branding baru di LinkedIn.
+          <li><strong>Perencanaan Strategis dan Aksi Nyata</strong></li>
+          <p>Sesi ditutup dengan rencana aksi konkret selama 3 bulan ke depan, yang mencakup pengembangan skill baru, networking strategis, serta proses aplikasi kerja yang selektif dan terarah.</p>
+        </ul>
+
+        <h2>Hasil dan Dampak</h2>
+        <p>
+        Dua bulan setelah sesi terakhir, klien diterima sebagai Strategic Advisor di sebuah yayasan pendidikan berbasis sosial yang memiliki dampak langsung terhadap komunitas. Peran ini tidak hanya memanfaatkan keahliannya dalam strategi dan komunikasi, tetapi juga memberi ruang aktualisasi nilai-nilai personal yang selama ini terpendam.
+        </p>
+        <p>
+        Yang lebih penting, proses ini memberinya kejelasan emosional dan keberanian untuk memilih karier bukan sekadar sebagai tangga prestise, tapi juga sebagai sarana untuk hidup lebih otentik dan bermakna.
+        </p>
+        </div>
+    </article>
+    </div>
+
+    <!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3 class="sidebar-title">Artikel Terbaru</h3>
+
+  <!-- Card Artikel Sidebar -->
+  <div class="sidebar-article-card">
+    <img src="img/sidebar-unilever.svg" alt="Transisi Karier di Unilever">
+    <div class="sidebar-article-content">
+    <a href="#" class="sidebar-article-title">Transisi Profesional Karier di PT. Unilever</a>
+    <p class="sidebar-article-date">Januari 06, 2025</p>
+    </div>
+  </div>
+
+  <div class="sidebar-article-card">
+    <img src="img/sidebar-ventura.svg" alt="Rekrutmen Ventura">
+    <div class="sidebar-article-content">
+      <a href="#" class="sidebar-article-title">Optimalisasi Rekrutmen di PT Ventura Cahaya Mitra</a>
+      <p class="sidebar-article-date">Juni 10, 2025</p>
+    </div>
+  </div>
+
+  <div class="sidebar-article-card">
+    <img src="img/sidebar-abc.svg" alt="Budaya Kerja ABC Corp">
+    <div class="sidebar-article-content">
+      <a href="#" class="sidebar-article-title">Transformasi Budaya Kerja di ABC Corp.</a>
+      <p class="sidebar-article-date">Juli 02, 2025</p>
+    </div>
+  </div>
+
+      <div class="featured-services-button-wrapper">
+        <a href="blog.html" style="transform: none;" class="featured-services-button">
+          Selengkapnya
+          <img src="img/icons/chevron_right.svg" alt="arrow icon" />
+        </a>
+      </div></aside>
+</section>
+
+</main>
+
+<footer>
+  <section class="footer-section">
+
+  <!-- CTA Section -->
+  <div class="footer-cta">
+    <div class="footer-cta-text">
+      <h2>Bingung memilih layanan yang tepat?</h2>
+      <p>Kami siap mendampingi Anda melalui sesi diskusi awal untuk memahami kebutuhan secara menyeluruh dan merekomendasikan layanan yang paling tepat.</p>
+    </div>
+    <div class="footer-cta-buttons">
+      <a href="https://forms.gle/r6PrwLr1sNYxW4k4A" target="_blank" class="btn-outline">
+        <img src="img/icons/form-footer.svg" alt="Form Icon" />
+        Langsung Buat Janji Temu
+      </a>
+      <a href="https://wa.me/6287788408171" target="_blank" class="btn-filled">
+        <img src="img/icons/chat-hero-footer.svg" alt="WhatsApp Icon" />
+        Tanya melalui WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer Content -->
+  <div class="footer-content">
+    <!-- Container 1 -->
+    <div class="footer-col footer-col-1">
+      <img src="img/LOGO MIGUNANI.png" alt="Migunani Consulting Logo" class="footer-logo" />
+      <p class="footer-desc">
+        Solusi pengembangan SDM dan psikologi untuk mendukung pertumbuhan individu dan organisasi.
+      </p>
+      <div class="footer-socials">
+    <a href="https://www.instagram.com/migunaniconsulting/" class="footer-social-btn" aria-label="Instagram">
+      <img src="img/icons/Negative-instagram.svg" alt="Instagram Icon" />
+    </a>
+    <a href="https://www.facebook.com/migunaniconsulting/" class="footer-social-btn" aria-label="Facebook">
+      <img src="img/icons/Negative-facebook.svg" alt="Facebook Icon" />
+    </a>
+    <a href="https://www.linkedin.com/company/migunani-consulting/" class="footer-social-btn" aria-label="LinkedIn">
+      <img src="img/icons/Negative-linkedin.svg" alt="LinkedIn Icon" />
+    </a>
+      </div>
+    </div>
+
+    <!-- Container 2 -->
+    <div class="footer-col footer-col-2">
+      <h4>Kontak</h4>
+      <div class="footer-contact">
+        <p><a href="tel:+6287788408171" style="text-decoration: none; color: inherit;"><img src="img/icons/footer-phone.svg" alt="Phone Icon" /> (+62) 877-8840-8171</a></p>
+        <p><a href="mailto:migunanimci@gmail.com" style="text-decoration: none; color: inherit;"><img src="img/icons/footer-mail.svg" alt="Email Icon" /> migunanimci@gmail.com</a></p>
+      </div>
+      <h4>Alamat</h4>
+      <div class="container-address">
+      <img src="img/icons/footer-location.svg" />
+      <p class="address">
+        <a href="https://maps.app.goo.gl/inwaWXzF7fGwXGET7" style="text-decoration: none; color: inherit;">
+          Jl. Hasanudin No. 18, Laweyan, Surakarta, Jawa Tengah
+        </a>
+      </p>
+    </div>
+    </div>
+
+    <!-- Container 3 -->
+    <div class="footer-col footer-col-3">
+      <h4>Perusahaan</h4>
+      <div class="perusahaan-linktext">
+        <a href="about-us.html">Tentang Migunani</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
+        <a href="clients.html">Klien</a>
+    </div>
+    </div>
+
+    <!-- Container 4 -->
+    <div class="footer-col footer-col-4">
+      <h4>Produk & Layanan</h4>
+      <div class="produk-linktext">
+        <a href="personal-service.html">Personal</a>
+        <a href="corporate-service.html">Perusahaan</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Copyrights -->
+  <div class="footer-copyrights">
+      <p>Copyright 2025 <strong class="footer-company-name">Migunani Consulting</strong></p>
+  </div>
+  </section>
+</footer>
+
+<!-- WhatsApp Button -->
+<div class="sticky-bottom" style="position: fixed; bottom: 45px; right: 60px; z-index: 1000;">
+  <div class="sticky-whatsapp-button" style="box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.20), 0px 0px 4px 0px rgba(0, 0, 0, 0.10);"></div>
+    <a href="https://wa.me/your-phone-number" target="_blank">
+      <img src="img/fixwa.svg" alt="WhatsApp" />
+    </a>
+  </div>
+</body>
+</html>

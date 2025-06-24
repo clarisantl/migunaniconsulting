@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Layanan - Migunani</title>
+
+  <!-- Google Font Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Custom JS -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/LOGO MIGUNANI.png" alt="Logo Migunani" width="147" height="47" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav custom-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="about-us.html">Tentang Kami</a>
+        </li>
+
+        <!-- Dropdown Layanan -->
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-button active-custom" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Layanan 
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="personal-service.html">Layanan Personal</a></li>
+            <li><a class="dropdown-item" href="corporate-service.html">Layanan Perusahaan</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="clients.html">Klien</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="contact.html">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header> 
+
+    <main>
+     <!-- Hero Section -->
+    <section class="hero" style="background-image: url(img/hero/personal\ service.svg);">
+    <div class="hero-content">
+        <h1 class="headline">LAYANAN KAMI</h1>
+        <h5 class="sub-head">Layanan-layanan untuk mendukung pengembangan karier individu dan manajemen SDM perusahaan, dengan solusi yang efektif dan berdampak.</h5>
+    </div>
+    </section>
+
+    <!-- Service Information -->
+<section class="personal-service-info">
+  <div class="info-content-container">
+    <!-- Info Header -->
+    <div class="info-header">
+      <div class="header-left-content">
+        <h2 class="header-left-title">LAYANAN PERUSAHAAN</h2>
+        <p class="header-left-subtitle">
+          Layanan yang ditujukan untuk membantu perusahaan dalam mengelola sumber daya manusia dan mencapai tujuan organisasi.
+        </p>
+      </div>
+      <div class="header-right-content">
+        <img src="img/Header Layanan Perusahaan.svg" alt="Corporate Service" />
+      </div>
+    </div>
+
+    <section class="client-target-section">
+      <div class="target-cards-container">
+        <div class="target-card">
+          <div class="target-icon">
+            ✓
+          </div>
+          <div class="target-head">Membangun Fondasi SDM yang Terstruktur</div>
+          <p class="target-desc">Merancang dan mengimplementasikan sistem manajemen SDM perusahaan yang efektif dan terintegrasi.</p>
+        </div>
+
+        <div class="target-card">
+          <div class="target-icon">
+            ✓
+          </div>
+          <div class="target-head">Mengoptimalkan Kinerja Tim HR</div>
+          <p class="target-desc">Memberikan dukungan strategi dan tools psikologis untuk memaksimalkan proses seleksi, evaluasi, dan pengelolaan SDM.</p>
+        </div>
+
+        <div class="target-card">
+          <div class="target-icon">
+            ✓
+          </div>
+          <div class="target-head">Mengembangkan Potensi dan Daya Saing Tim</div>
+          <p class="target-desc" sty>Meningkatkan kompetensi dan kinerja tim melalui pelatihan, coaching, dan mentoring yang terfokus.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Body Content -->
+    <section class="komitmen-section" style="background-color: #FFFFFF; padding: 60px;">
+    <div class="team-header" style="margin-bottom: 60px;">
+      <h2 class="team-title" style="font-size: 32px;">Komitmen Kami dalam Pelayanan</h2>
+      <p class="team-subtitle" style="margin: 0; max-width: 900px;">Kami berkomitmen untuk membantu perusahaan membangun sistem SDM yang efektif dan mengembangkan potensi tim.</p>
+    </div>
+    <div class="info-body-container">
+        <div class="card">
+            <div class="card-icon">
+                <img src="img/icons/key.svg" alt="SOLUSI TERPADU" />
+            </div>
+            <div class="card-text-container">
+                <h4 class="valuecard-title">SOLUSI TERPADU</h4>
+                <p class="card-desc">
+                  Dapatkan solusi komprehensif untuk semua kebutuhan HR perusahaan Anda.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="img/icons/growth.svg" alt="PENINGKATAN KINERJA" />
+            </div>
+            <div class="card-text-container">
+                <h4 class="valuecard-title">PENINGKATAN KINERJA</h4>
+                <p class="card-desc">
+                  Kami membantu meningkatkan kinerja karyawan dan mencapai tujuan bisnis perusahaan.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="img/icons/good.svg" alt="EXPERTISE BERPENGALAMAN" />
+            </div>
+            <div class="card-text-container">
+                <h4 class="valuecard-title">EXPERTISE BERPENGALAMAN</h4>
+                <p class="card-desc">
+                  Tim profesional kami memiliki pengalaman dan keahlian yang luas dalam berbagai bidang SDM.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="img/icons/flexibilitas jadwal.svg" alt="PENGEMBANGAN BERKELANJUTAN" />
+            </div>
+            <div class="card-text-container">
+                <h4 class="valuecard-title">PENGEMBANGAN BERKELANJUTAN</h4>
+                <p class="card-desc">
+                Kami membantu perusahaan menciptakan budaya kerja positif dan pengembangan karyawan berkelanjutan.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+  </div>
+</section>
+
+
+<!-- Tab Buttons -->
+<section class="whole-bottomservices-contents" style="padding: 60px; background: var(--Neutral-nt00, #F8F8F8);">
+<section class="switching-tabs">
+<div class="tab-buttons-container">
+  <ul class="nav" style="gap: 0;">
+    <li class="tab-item">
+      <a class="tab-button active" style="text-decoration: none;" id="hrm-tab" href="#tabContentContainer1" onclick="showTab('1')">Human Resources Management</a>
+    </li>
+    <li class="tab-item">
+      <a class="tab-button" style="text-decoration: none;" id="hr-tab" href="#tabContentContainer2" onclick="showTab('2')">Human Resources</a>
+    </li>
+    <li class="tab-item">
+      <a class="tab-button" style="text-decoration: none;" id="recruitment-tab" href="#tabContentContainer3" onclick="showTab('3')">Recruitment</a>
+    </li>
+    <li class="tab-item">
+      <a class="tab-button" style="text-decoration: none;" id="assessment-tab" href="#tabContentContainer4" onclick="showTab('4')">Assessment Center</a>
+    </li>
+      <li class="tab-item">
+      <a class="tab-button" style="text-decoration: none;" id="tnd-tab" href="#tabContentContainer5" onclick="showTab('5')">Training & Development</a>
+    </li>
+  </ul>
+</div>
+
+<!-- Tab Content -->
+  <div class="tab-content" id="tabContentContainer1">
+    <div class="tab-header">
+      <h2 class="tab-title" style="position: relative; width: fit-content;">
+        <span style="position: relative; z-index: 1;">Human Resources Management</span>
+        <span style="position: absolute; bottom: 0; left: 9%; width: 95%; height: 43%; background: #FFD500; z-index: 0;"></span>
+      </h2>
+      <p class="tab-subtitle"> One stop solution untuk perusahaan anda yang belum memiliki manajemen SDM, kami akan membantu dari hulu ke hilir. Menciptakan, mendiskusikan dan menetapkan manajemen SDM.</p>
+    </div>
+    <!-- Service Cards... -->
+ <div class="service-cards-container">
+  <div class="service-card">
+    <div class="card-number">
+      <span>1</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Organization Design</h4>
+      <p class="card-desc">Merancang struktur organisasi yang efisien untuk mendukung tujuan dan komunikasi yang efektif.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>2</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Job Analysis & Job Description</h4>
+      <p class="card-desc">Menyusun deskripsi pekerjaan yang jelas agar setiap posisi memiliki peran dan tanggung jawab yang tepat.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>3</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Recruitment & Selection</h4>
+      <p class="card-desc">Proses rekrutmen yang sistematis untuk memilih kandidat terbaik berdasarkan kompetensi yang dibutuhkan.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>4</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Training & Development</h4>
+      <p class="card-desc">Program pelatihan untuk meningkatkan keterampilan karyawan & mem-persiapkan untuk karier yang lebih baik.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>5</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Industrial Relationship (Legal)</h4>
+      <p class="card-desc">Membantu perusahaan mengelola hubungan industrial dan memastikan kepatuhan hukum ketenagakerjaan.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>6</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Performance Management (KPI)</h4>
+      <p class="card-desc">Mengelola kinerja karyawan dengan menetapkan KPI yang jelas & evaluasi berkala untuk mencapai tujuan.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+</div>
+</div>
+
+  <div class="tab-content" id="tabContentContainer2" style="display: none;">
+    <div class="tab-header">
+      <h2 class="tab-title" style="position: relative; width: fit-content;">
+        <span style="position: relative; z-index: 1;">Human Resources</span>
+        <span style="position: absolute; bottom: 0; left: 9%; width: 95%; height: 43%; background: #FFD500; z-index: 0;"></span>
+      </h2>
+      <p class="tab-subtitle">Solusi manajemen sumber daya manusia untuk meningkatkan kinerja dan kesejahteraan karyawan.</p>
+    </div>
+    <!-- Service Cards... -->
+ <div class="service-cards-container">
+  <div class="service-card">
+    <div class="card-number">
+      <span>1</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Company Regulations</h4>
+      <p class="card-desc">Menyusun dan mengelola peraturan perusahaan yang sesuai dengan hukum untuk menciptakan lingkungan kerja yang tertib.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>2</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Coaching & Mentoring</h4>
+      <p class="card-desc">Program bimbingan untuk membantu karyawan berkembang secara pribadi dan profesional.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>3</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Employee Assistance Program</h4>
+      <p class="card-desc">Dukungan bagi karyawan dalam mengatasi masalah pribadi atau pekerjaan melalui konseling dan layanan kesejahteraan.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="tab-content" id="tabContentContainer3" style="display: none;">
+    <div class="tab-header">
+      <h2 class="tab-title" style="position: relative; width: fit-content;">
+        <span style="position: relative; z-index: 1;">Recruitment</span>
+        <span style="position: absolute; bottom: 0; left: 9%; width: 95%; height: 43%; background: #FFD500; z-index: 0;"></span>
+      </h2>
+      <p class="tab-subtitle">Solusi rekrutmen tepat untuk menemukan kandidat terbaik.</p>
+    </div>
+    <!-- Service Cards... -->
+ <div class="service-cards-container">
+  <div class="service-card">
+    <div class="card-number">
+      <span>1</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Sourcing/Recruitment</h4>
+      <p class="card-desc">Proses pencarian dan seleksi kandidat terbaik melalui metode yang sistematis dan efisien, sesuai dengan kebutuhan perusahaan.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>2</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Psychological Test & Interview</h4>
+      <p class="card-desc">Tes psikologi dan wawancara berbasis kompetensi untuk menilai kemampuan, kepribadian, dan kecocokan kandidat dengan posisi yang dilamar.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="tab-content" id="tabContentContainer4" style="display: none;">
+    <div class="tab-header">
+      <h2 class="tab-title" style="position: relative; width: fit-content;">
+        <span style="position: relative; z-index: 1;">Assessment Center</span>
+        <span style="position: absolute; bottom: 0; left: 9%; width: 95%; height: 43%; background: #FFD500; z-index: 0;"></span>
+      </h2>
+      <p class="tab-subtitle">Penilaian yang dirancang untuk membantu perusahaan memahami potensi dan kesesuaian setiap individu dalam tim.</p>
+    </div>
+    <!-- Service Cards... -->
+ <div class="service-cards-container">
+  <div class="service-card">
+    <div class="card-number">
+      <span>1</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Psychological Test</h4>
+      <p class="card-desc">Menilai kemampuan dan kepribadian calon karyawan untuk memastikan kesesuaian dengan posisi dan budaya perusahaan.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>2</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Focus Group Discussion (FGD)</h4>
+      <p class="card-desc">Mengukur kemampuan komunikasi dan kerja sama tim dalam menyelesaikan masalah bisnis.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>3</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">In Tray</h4>
+      <p class="card-desc">Simulasi tugas untuk menilai kemampuan pengambilan keputusan dan prioritas dalam situasi kerja nyata.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>4</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Case Study</h4>
+      <p class="card-desc">Menguji kemampuan pemecahan masalah dan berpikir strategis dengan kasus yang relevan dengan perusahaan.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>5</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Competency-Based Interview</h4>
+      <p class="card-desc">Menggali pengalaman dan keterampilan calon karyawan melalui pertanyaan berbasis kompetensi yang relevan dengan posisi.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+</div>
+</div>
+
+  <div class="tab-content" id="tabContentContainer5" style="display: none;">
+    <div class="tab-header">
+      <h2 class="tab-title" style="position: relative; width: fit-content;">
+        <span style="position: relative; z-index: 1;">Training & Development</span>
+        <span style="position: absolute; bottom: 0; left: 9%; width: 95%; height: 43%; background: #FFD500; z-index: 0;"></span>
+      </h2>
+      <p class="tab-subtitle">Program pelatihan yang dirancang untuk meningkatkan keterampilan dan potensi karyawan.</p>
+    </div>
+    <!-- Service Cards... -->
+ <div class="service-cards-container">
+  <div class="service-card">
+    <div class="card-number">
+      <span>1</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Human Resources Management</h4>
+      <p class="card-desc">Pelatihan untuk mengelola SDM secara efektif dari rekrutmen hingga pengembangan karier.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>2</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Leadership for Young Generation</h4>
+      <p class="card-desc">Program untuk mengembangkan kemampuan kepemimpinan dan pengambilan keputusan pada generasi muda.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>3</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Public Speaking & Negotiation Skill</h4>
+      <p class="card-desc">Pelatihan untuk meningkatkan keterampilan berbicara di depan umum dan negosiasi profesional.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>4</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Recruitment & Selection</h4>
+      <p class="card-desc">Pelatihan untuk memahami dan menerapkan proses rekrutmen dan seleksi kandidat yang tepat.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+
+  <div class="service-card">
+    <div class="card-number">
+      <span>5</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Effective Communication</h4>
+      <p class="card-desc">Meningkatkan kemampuan komunikasi yang jelas dan efisien di tempat kerja.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+    <div class="service-card">
+    <div class="card-number">
+      <span>6</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Psychological Test Tool Deepening</h4>
+      <p class="card-desc">Pelatihan mendalam tentang penggunaan alat tes psikologi untuk manajemen SDM.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+
+    <div class="service-card">
+    <div class="card-number">
+      <span>7</span>
+    </div>
+    <div class="card-text">
+      <h4 class="card-title">Career Mapping</h4>
+      <p class="card-desc">Membantu individu merencanakan jalur karir yang sesuai dengan minat dan keahlian.</p>
+    </div>
+    <div class="card-button">
+      <button class="tertarik-btn cta-button">Tertarik</button>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+</section>
+    </main>
+
+<footer>
+  <section class="footer-section">
+
+  <!-- CTA Section -->
+  <div class="footer-cta">
+    <div class="footer-cta-text">
+      <h2>Bingung memilih layanan yang tepat?</h2>
+      <p>Kami siap mendampingi Anda melalui sesi diskusi awal untuk memahami kebutuhan secara menyeluruh dan merekomendasikan layanan yang paling tepat.</p>
+    </div>
+    <div class="footer-cta-buttons">
+      <a href="https://forms.gle/r6PrwLr1sNYxW4k4A" target="_blank" class="btn-outline">
+        <img src="img/icons/form-footer.svg" alt="Form Icon" />
+        Langsung Buat Janji Temu
+      </a>
+      <a href="https://wa.me/6287788408171" target="_blank" class="btn-filled">
+        <img src="img/icons/chat-hero-footer.svg" alt="WhatsApp Icon" />
+        Tanya melalui WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer Content -->
+  <div class="footer-content">
+    <!-- Container 1 -->
+    <div class="footer-col footer-col-1">
+      <img src="img/LOGO MIGUNANI.png" alt="Migunani Consulting Logo" class="footer-logo" />
+      <p class="footer-desc">
+        Solusi pengembangan SDM dan psikologi untuk mendukung pertumbuhan individu dan organisasi.
+      </p>
+      <div class="footer-socials">
+    <a href="https://www.instagram.com/migunaniconsulting/" class="footer-social-btn" aria-label="Instagram">
+      <img src="img/icons/Negative-instagram.svg" alt="Instagram Icon" />
+    </a>
+    <a href="https://www.facebook.com/migunaniconsulting/" class="footer-social-btn" aria-label="Facebook">
+      <img src="img/icons/Negative-facebook.svg" alt="Facebook Icon" />
+    </a>
+    <a href="https://www.linkedin.com/company/migunani-consulting/" class="footer-social-btn" aria-label="LinkedIn">
+      <img src="img/icons/Negative-linkedin.svg" alt="LinkedIn Icon" />
+    </a>
+      </div>
+    </div>
+
+    <!-- Container 2 -->
+    <div class="footer-col footer-col-2">
+      <h4>Kontak</h4>
+      <div class="footer-contact">
+        <p><a href="tel:+6287788408171" style="text-decoration: none; color: inherit;"><img src="img/icons/footer-phone.svg" alt="Phone Icon" /> (+62) 877-8840-8171</a></p>
+        <p><a href="mailto:migunanimci@gmail.com" style="text-decoration: none; color: inherit;"><img src="img/icons/footer-mail.svg" alt="Email Icon" /> migunanimci@gmail.com</a></p>
+      </div>
+      <h4>Alamat</h4>
+      <div class="container-address">
+      <img src="img/icons/footer-location.svg" />
+      <p class="address">
+        <a href="https://maps.app.goo.gl/inwaWXzF7fGwXGET7" style="text-decoration: none; color: inherit;">
+          Jl. Hasanudin No. 18, Laweyan, Surakarta, Jawa Tengah
+        </a>
+      </p>
+    </div>
+    </div>
+
+    <!-- Container 3 -->
+    <div class="footer-col footer-col-3">
+      <h4>Perusahaan</h4>
+      <div class="perusahaan-linktext">
+        <a href="about-us.html">Tentang Migunani</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
+        <a href="clients.html">Klien</a>
+    </div>
+    </div>
+
+    <!-- Container 4 -->
+    <div class="footer-col footer-col-4">
+      <h4>Produk & Layanan</h4>
+      <div class="produk-linktext">
+        <a href="personal-service.html">Personal</a>
+        <a href="corporate-service.html">Perusahaan</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Copyrights -->
+  <div class="footer-copyrights">
+      <p>Copyright 2025 <strong class="footer-company-name">Migunani Consulting</strong></p>
+  </div>
+  </section>
+</footer>
+
+  <!-- Pop Up -->
+<div class="popup-container">
+    <div class="popup">
+        <div class="popup-close-btn-container">
+            <button class="close-btn">&times;</button>
+        </div>
+        <div class="popup-icon">
+          <img src="img/icons/popupicon.svg" alt="WhatsApp Icon" class="icon-img">
+        </div>
+        <div class="popup-text-container">
+            <h4 class="popup-head">Terima Kasih Atas Ketertarikan Anda Akan Layanan Kami!</h4>
+            <p class="popup-desc">Untuk memastikan Anda memilih layanan yang paling sesuai dengan kebutuhan, kami menyarankan untuk berkonsultasi terlebih dahulu dengan tim kami melalui WhatsApp.</p>
+            <p class="popup-desc">Kami siap membantu Anda menentukan pilihan yang tepat!</p>
+
+        </div>
+        <div class="popup-buttons">
+            <a href="https://forms.gle/r6PrwLr1sNYxW4k4A" target="_blank" class="secondary-btn" style="text-decoration: none;">Pesan Layanan Langsung</a>
+            <a href="https://wa.me/6287788408171" target="_blank" class="primary-btn" style="text-decoration: none;">Konsultasi via WhatsApp</a>
+        </div>
+    </div>
+</div>
+<!-- Pop Up JS -->
+<script>
+// Mendapatkan semua tombol "Tertarik"
+const tertarikButtons = document.querySelectorAll('.tertarik-btn');
+const popupContainer = document.querySelector('.popup-container');
+const closeBtn = document.querySelector('.close-btn');
+
+// Fungsi untuk menampilkan pop-up dengan animasi
+function showPopup() {
+  popupContainer.style.display = 'flex'; // Menampilkan pop-up
+  setTimeout(() => {
+    popupContainer.classList.add('show'); // Menambahkan kelas untuk animasi masuk
+  }, 10); // Menunda perubahan opacity dan transformasi agar animasi bekerja
+}
+
+// Fungsi untuk menutup pop-up dengan animasi
+function closePopup() {
+  popupContainer.classList.remove('show'); // Menghapus kelas animasi keluar
+  setTimeout(() => {
+    popupContainer.style.display = 'none'; // Menyembunyikan pop-up setelah animasi selesai
+  }, 300); // Menunggu animasi selesai sebelum menyembunyikan
+}
+
+// Menambahkan event listener untuk setiap tombol "Tertarik"
+tertarikButtons.forEach(button => {
+  button.addEventListener('click', showPopup);
+});
+
+// Menambahkan event listener untuk tombol close
+closeBtn.addEventListener('click', closePopup);
+
+// Menambahkan event listener untuk menutup pop-up saat klik di luar pop-up
+popupContainer.addEventListener('click', (e) => {
+  if (e.target === popupContainer) {
+    closePopup();
+  }
+});
+</script>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+// Function to show the appropriate tab content based on the clicked tab
+function showTab(tab) {
+  // Hide all tab content containers
+  document.getElementById('tabContentContainer1').style.display = 'none';
+  document.getElementById('tabContentContainer2').style.display = 'none';
+  document.getElementById('tabContentContainer3').style.display = 'none';
+  document.getElementById('tabContentContainer4').style.display = 'none';
+  document.getElementById('tabContentContainer5').style.display = 'none';
+
+  // Remove the 'active' class from all tab buttons
+  document.getElementById('hrm-tab').classList.remove('active');
+  document.getElementById('hr-tab').classList.remove('active');
+  document.getElementById('recruitment-tab').classList.remove('active');
+  document.getElementById('assessment-tab').classList.remove('active');
+  document.getElementById('tnd-tab').classList.remove('active');
+
+  // Show the clicked tab content and add the 'active' class to the clicked tab button
+  if (tab === '1') {
+    document.getElementById('tabContentContainer1').style.display = 'block';
+    document.getElementById('hrm-tab').classList.add('active');
+  } else if (tab === '2') {
+    document.getElementById('tabContentContainer2').style.display = 'block';
+    document.getElementById('hr-tab').classList.add('active');
+  } else if (tab === '3') {
+    document.getElementById('tabContentContainer3').style.display = 'block';
+    document.getElementById('recruitment-tab').classList.add('active');
+  } else if (tab === '4') {
+    document.getElementById('tabContentContainer4').style.display = 'block';
+    document.getElementById('assessment-tab').classList.add('active');
+  } else if (tab === '5') {
+    document.getElementById('tabContentContainer5').style.display = 'block';
+    document.getElementById('tnd-tab').classList.add('active');
+  }
+
+  // Ensure the card button is visible on mobile/tablet after switching tabs
+  const cardButtons = document.querySelectorAll('.card-button');
+  cardButtons.forEach(button => {
+    button.style.display = 'flex'; // Always display the button on mobile/tablet
+  });
+}
+
+// Ensure the correct tab is shown when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+  showTab('1');  // Default to showing the 'Human Resources Management' tab on page load
+});
+
+</script>
+
+<div class="sticky-bottom" style="position: fixed; bottom: 45px; right: 60px; z-index: 1000;">
+  <div class="sticky-whatsapp-button" style="box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.20), 0px 0px 4px 0px rgba(0, 0, 0, 0.10);"></div>
+    <a href="https://wa.me/your-phone-number" target="_blank">
+      <img src="img/fixwa.svg" alt="WhatsApp" />
+    </a>
+  </div>
+  
+</body>
+</html>

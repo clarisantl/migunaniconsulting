@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak - Migunani</title>
+
+  <!-- Google Font Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Custom JS -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/LOGO MIGUNANI.png" alt="Logo Migunani" width="147" height="47" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav custom-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="about-us.html">Tentang Kami</a>
+        </li>
+
+        <!-- Dropdown Layanan -->
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-button" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Layanan 
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="personal-service.html">Layanan Personal</a></li>
+            <li><a class="dropdown-item" href="corporate-service.html">Layanan Perusahaan</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="clients.html">Klien</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-button active-custom" href="contact.html">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header> 
+
+    <main>
+  <!-- Hero Section -->
+   <section class="hero" style="background-image: url(img/hero/contact.svg);">
+    <div class="hero-content">
+        <h1 class="headline">TEMUKAN KAMI</h1>
+        <h5 class="sub-head">Temukan cara untuk menghubungi kami di bawah ini.</h5>
+    </div>
+    </section>
+
+  <section class="contact-container" style="flex-direction: row;">
+    <div class="contact-container-header">
+    <div class="contact-header" style="flex-direction: column;">
+        <h2>Lokasi dan Kontak</h2>
+        <h5>Untuk pertanyaan lebih lanjut atau informasi mengenai layanan kami, tim Migunani siap memberikan bantuan. Berikut informasi kontak dan lokasi kantor kami.</h5>
+            <div class="contact-content" style="flex-direction: column;">
+        <div class="contact-left" style="flex-direction: column;">
+            <div class="contact-card">
+              <div class="icon">
+                <img src="img/icons/phone-contact.svg" alt="phone-icon">
+              </div>
+              <div class="info">
+                <p>Nomor Telepon</p>
+                <h5><a href="tel:+6287788408171" style="text-decoration: none; color: inherit;">(+62) 877 8840 8171</a></h5>
+              </div>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon">
+                    <img src="img/icons/email-contact.svg" alt="email-icon">
+                </div>
+                <div class="info">
+                    <p>Email</p>
+                    <h5><a href="mailto:migunanimci@gmail.com" style="text-decoration: none; color: inherit;">migunanimci@gmail.com</a></h5>
+                </div>
+            </div>
+
+            <div class="contact-card" >
+               <div class="icon">
+                <img src="img/icons/loc-contact.svg" alt="location-icon">
+                </div>
+                <div class="info">
+                    <p>Lokasi</p>
+                    <h5><a href="https://maps.google.com/maps?q=Migunani+Consulting,+Jl.+Hasanudin+No.18,+Purwosari,+Kec.+Laweyan,+Kota+Surakarta,+Jawa+Tengah+57142" style="text-decoration: none; color: inherit;">Migunani Consulting<br>Jl. Hasanudin No.18, Purwosari, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57142</a></h5>
+                </div>
+            </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+
+        <div class="map-container">
+      <!-- Google Maps embed -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.123766970939!2d110.8001921!3d-7.561482199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a156ef6977bb3%3A0xa0ef090624a78cae!2sMigunani%20Consulting!5e0!3m2!1sen!2sid!4v1749917775978!5m2!1sen!2sid" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    </div>
+</section>
+
+    </main>
+
+<footer>
+  <section class="footer-section">
+
+  <!-- CTA Section -->
+  <div class="footer-cta">
+    <div class="footer-cta-text">
+      <h2>Bingung memilih layanan yang tepat?</h2>
+      <p>Kami siap mendampingi Anda melalui sesi diskusi awal untuk memahami kebutuhan secara menyeluruh dan merekomendasikan layanan yang paling tepat.</p>
+    </div>
+    <div class="footer-cta-buttons">
+      <a href="https://forms.gle/r6PrwLr1sNYxW4k4A" target="_blank" class="btn-outline">
+        <img src="img/icons/form-footer.svg" alt="Form Icon" />
+        Langsung Buat Janji Temu
+      </a>
+      <a href="https://wa.me/6287788408171" target="_blank" class="btn-filled">
+        <img src="img/icons/chat-hero-footer.svg" alt="WhatsApp Icon" />
+        Tanya melalui WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer Content -->
+  <div class="footer-content">
+    <!-- Container 1 -->
+    <div class="footer-col footer-col-1">
+      <img src="img/LOGO MIGUNANI.png" alt="Migunani Consulting Logo" class="footer-logo" />
+      <p class="footer-desc">
+        Solusi pengembangan SDM dan psikologi untuk mendukung pertumbuhan individu dan organisasi.
+      </p>
+      <div class="footer-socials">
+    <a href="https://www.instagram.com/migunaniconsulting/" class="footer-social-btn" aria-label="Instagram">
+      <img src="img/icons/Negative-instagram.svg" alt="Instagram Icon" />
+    </a>
+    <a href="https://www.facebook.com/migunaniconsulting/" class="footer-social-btn" aria-label="Facebook">
+      <img src="img/icons/Negative-facebook.svg" alt="Facebook Icon" />
+    </a>
+    <a href="https://www.linkedin.com/company/migunani-consulting/" class="footer-social-btn" aria-label="LinkedIn">
+      <img src="img/icons/Negative-linkedin.svg" alt="LinkedIn Icon" />
+    </a>
+      </div>
+    </div>
+
+    <!-- Container 2 -->
+    <div class="footer-col footer-col-2">
+      <h4>Kontak</h4>
+      <div class="footer-contact">
+        <p><a href="tel:+6287788408171" style="text-decoration: none; color: inherit;"><img src="img/icons/footer-phone.svg" alt="Phone Icon" /> (+62) 877-8840-8171</a></p>
+        <p><a href="mailto:migunanimci@gmail.com" style="text-decoration: none; color: inherit;"><img src="img/icons/footer-mail.svg" alt="Email Icon" /> migunanimci@gmail.com</a></p>
+      </div>
+      <h4>Alamat</h4>
+      <div class="container-address">
+      <img src="img/icons/footer-location.svg" />
+      <p class="address">
+        <a href="https://maps.app.goo.gl/inwaWXzF7fGwXGET7" style="text-decoration: none; color: inherit;">
+          Jl. Hasanudin No. 18, Laweyan, Surakarta, Jawa Tengah
+        </a>
+      </p>
+    </div>
+    </div>
+
+    <!-- Container 3 -->
+    <div class="footer-col footer-col-3">
+      <h4>Perusahaan</h4>
+      <div class="perusahaan-linktext">
+        <a href="about-us.html">Tentang Migunani</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
+        <a href="clients.html">Klien</a>
+    </div>
+    </div>
+
+    <!-- Container 4 -->
+    <div class="footer-col footer-col-4">
+      <h4>Produk & Layanan</h4>
+      <div class="produk-linktext">
+        <a href="personal-service.html">Personal</a>
+        <a href="corporate-service.html">Perusahaan</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Copyrights -->
+  <div class="footer-copyrights">
+      <p>Copyright 2025 <strong class="footer-company-name">Migunani Consulting</strong></p>
+  </div>
+  </section>
+</footer>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <div class="sticky-bottom" style="position: fixed; bottom: 45px; right: 60px; z-index: 1000;">
+  <div class="sticky-whatsapp-button" style="box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.20), 0px 0px 4px 0px rgba(0, 0, 0, 0.10);"></div>
+    <a href="https://wa.me/your-phone-number" target="_blank">
+      <img src="img/fixwa.svg" alt="WhatsApp" />
+    </a>
+  </div>
+</body>
+</html>
