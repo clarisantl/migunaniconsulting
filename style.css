@@ -4383,6 +4383,10 @@ margin-bottom: 52px;
   padding-top: 60px;
 }
 
+.social-share-buttons {
+  padding: 0% !important;
+}
+
 .faq-right {
     display: flex;
     flex-direction: column;
@@ -6066,7 +6070,7 @@ button svg {
   content: "";
   position: absolute;
   bottom: -4px;
-  right: 0;
+  right: 0%;
   width: 178px;
   height: 18px;
   background: #FFD500;
@@ -6193,6 +6197,10 @@ button svg {
     flex-wrap: wrap;
     gap: 8px;
     justify-content: flex-start !important;
+  }
+    .sidebar-title::before {
+    left: 36%;
+    width: 30%;
   }
 }
 
