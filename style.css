@@ -6066,7 +6066,7 @@ button svg {
   content: "";
   position: absolute;
   bottom: -4px;
-  right: 33%;
+  right: 0;
   width: 178px;
   height: 18px;
   background: #FFD500;
