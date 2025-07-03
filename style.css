@@ -4181,10 +4181,6 @@ margin-bottom: 52px;
 
 /* Responsive for Phone (320px - 480px) */
 @media (max-width: 480px) {
-  .card-button {
-    display: flex !important; /* Force the button to be always visible on mobile */
-  }
-
   .card-button .btn {
     display: flex !important; /* Force the button to be always visible on mobile */
   }
@@ -4233,10 +4229,6 @@ margin-bottom: 52px;
 
   .card-desc {
     font-size: 16px;
-  }
-
-  .card-button {
-    display: flex !important; /* Ensure the button is always shown on tablets */
   }
 }
 
