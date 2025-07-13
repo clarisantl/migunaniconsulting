@@ -19,19 +19,7 @@
 </head>
 <body>
 
-<header>
-  
-<div class="loader-wrapper">
-    <div class="loader"></div>
-  </div>
-<!-- Loader JS -->
-<script>
-  window.addEventListener('load', function() {
-    const loader = document.querySelector('.loader-wrapper');
-    loader.style.display = 'none';
-  });
-</script>
-  
+<header>  
   <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
   <div class="container">
@@ -83,7 +71,18 @@
   </div>
 </nav>
 </header> 
-
+  
+<div class="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+<!-- Loader JS -->
+<script>
+  window.addEventListener('load', function() {
+    const loader = document.querySelector('.loader-wrapper');
+    loader.style.display = 'none';
+  });
+</script>
+  
 <main>
   <!-- Hero Section -->
   <section class="hero-section">
