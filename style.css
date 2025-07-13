@@ -982,8 +982,9 @@ body {
 .featured-services-wrapper {
   position:relative; /* agar child absolute positioning terhadap ini */
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
-  padding: 80px 60px 0px 60px;
+  padding: 80px 20px 0px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
