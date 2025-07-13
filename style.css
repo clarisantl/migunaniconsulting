@@ -16,7 +16,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #ffffff; /* Latar belakang transparan */
-  opacity: 0.8; /* Sedikit transparan */
+  opacity: 0.5; /* Sedikit transparan */
   display: flex; /* Menggunakan flexbox untuk memposisikan spinner di tengah */
   justify-content: center;
   align-items: center;
